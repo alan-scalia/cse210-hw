@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Sandbox World!");
+        string[] date = DateTime.Today.ToString().Split(" ");
+        Console.Write(date[0]);
     }
 }
