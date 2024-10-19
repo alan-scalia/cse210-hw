@@ -12,6 +12,11 @@ public class Video
         _length = length;
     }
 
+    public int GetNumberOfComments()
+    {
+        return _comments.Count;
+    }
+
     public void AddComment(Comment comment)
     {
         _comments.Add(comment);
@@ -19,7 +24,7 @@ public class Video
 
     public void DisplayVideo() 
     {
-        Console.Write($"\n{_title} ({_length}) - {_author}");
+        Console.Write($"\n{_title} ({_length}) - {_author} - {GetNumberOfComments()} comments");
     }
 
     public void DisplayComments()
