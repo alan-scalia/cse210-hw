@@ -1,0 +1,4 @@
+103
+SimpleGoal:Simple Goal|example of a description|100|True
+EternalGoal:Eternal Goal|Example of a description|30
+CheckListGoal:Checklist Goal|Example of a description|3|10|3|1
